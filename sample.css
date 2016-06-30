@@ -1,4 +1,4 @@
-html head header body div nav.navtop a h1 {
+html head header body div.header nav.navtop a h1 .aboutme p h2 div.img{
     margin: 0;
     padding: 0;
     border: 0;
@@ -9,29 +9,80 @@ header {
     position: relative;
 }
 div.nav {
-   height: 350px;
+   height: 200px;
    width: 100%;
    background-position: center;
    background-image: url(3333.jpg);
    background-size: cover;
-   position: relative;
-    }
+   position:relative;
+ 
+   }
+   hr.line {
+    display: block;
+    border: none; 
+    margin: 0;
+    background-color: black;
+    height: 3px; 
+
+   }
 nav.navtop a {
+    height: 50px;
     float: left;
     display: inline-block;
-    margin-right: 20px;
-    margin-left: 40px;
-    font-family: Verdana;
+    margin-right: 5px;
+    margin-left: 10px;
+    font-family: 'Ruslan Display', cursive, Verdana;
     font-size: 30px;
+    font-style: normal;
     text-transform: uppercase;
     text-decoration: none;
-    color: #200830;
+    color: black;
     border: 5px double;
     border-color: #360369;
-    position: relative;
+    margin-top: 100px;
 }
 nav a:hover{
     background: #82693b; 
     color: #ffe;  
  }
+ div.header{
+     display: inline-block;
+     height: 800px;
+     width: 100%;
+     background-color: #F0C8FA;
+     background-size: cover;
+     position: relative;
+      }
+      
+ h1 {
+     margin-top: -20px;   
+     margin-left: 600px;
+     width: auto;
+     display: inline-block;
+     font-family: 'Tangerine', serif;
+     font-size: 100px;
+     color: #2B0202;
+     text-shadow: 4px 4px 4px #aaa;
+     border: none;
+     
+     }
+     div.img1 {
+         display: inline-block;
+         margin-top: -175px;
+     }
+section .aboutme {
+    display: inline-block;
+    width: 850px;
+    margin-left: 320px;
+    margin-top: -250px;
+    font-family:  'Yatra One', cursive;
+     }
+     div.img {
+         direction: inline-block;
+         height: 200px;
+         width: 200px;
+         background-image: url(robota2.jpg);
+         position: relative;
+     }
+ 
    
